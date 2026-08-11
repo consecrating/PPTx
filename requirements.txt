@@ -4,5 +4,8 @@ Pillow>=10.0.0
 defusedxml>=0.7.0
 lxml>=4.9.0
 
+# AI Generation (Kimi K3 / TokenRouter)
+openai>=1.30.0
+
 # Optional: for advanced features
-colorsys  # stdlib, no install needed
+# colorsys — stdlib, no install needed

@@ -73,6 +73,56 @@ PPTx/
 
 ---
 
+## AI-Powered Generation with Kimi K3 (FREE!)
+
+Generate professional presentations from natural language using Kimi K3 — **for free** via OpenRouter:
+
+```bash
+# FREE Setup (no credit card required!)
+# 1. Sign up at https://openrouter.ai (takes 30 seconds)
+# 2. Get your free API key from the dashboard
+export OPENROUTER_API_KEY="sk-or-your-key-here"
+
+# Generate a presentation — FREE!
+python generate.py "A 10-slide pitch deck for an AI startup"
+python generate.py "Quarterly business review Q2 2026"
+python generate.py "Product launch presentation with charts"
+
+# Then build and validate
+node generated_presentation.js
+python scripts/office/validate.py *.pptx
+```
+
+### Free Kimi K3 Access Options
+
+| Method | Cost | Setup | Best For |
+|--------|------|-------|----------|
+| **OpenRouter** ⭐ | **FREE** (rate-limited) | Sign up, get key, done | API access for PPTx generation |
+| **Kimi App** (kimi.com) | **FREE** (daily cap) | Just sign in | Quick chat-based generation |
+| **Kimi API** (platform.kimi.ai) | Trial credits on signup | Get API key | Best quality, full control |
+| **Self-host** (open weights) | Free (need GPUs) | Download from HuggingFace | Privacy, unlimited use |
+
+### Why Kimi K3 for PPTx?
+
+| Feature | Benefit for PPTx |
+|---------|-----------------|
+| 2.8T parameters | Exceptional code generation quality |
+| 1M token context | Process huge templates and long content |
+| Always-on reasoning | Better design decisions and slide structure |
+| Tool calling | Orchestrate multi-step generation workflows |
+| Vision support | Can analyze existing slides for reference |
+| **FREE via OpenRouter** | No cost to get started! |
+
+### Supported Providers
+
+| Provider | Models | Cost | Best For |
+|----------|--------|------|----------|
+| **OpenRouter** ⭐ (`openrouter.ai`) | moonshotai/kimi-k3 | **FREE** | Best free option |
+| **Kimi Direct** (`platform.kimi.ai`) | kimi-k3, kimi-k2.7-code | Trial credits / $3-15/M tokens | Best quality |
+| **TokenRouter** (`tokenrouter.me`) | kimi-k2p7-code, kimi-k2p6 | Paid | Alternative routing |
+
+---
+
 ## Quick Start
 
 ### Prerequisites
@@ -81,7 +131,7 @@ PPTx/
 # Node.js (pptxgenjs for creation)
 npm install
 
-# Python (validation, thumbnails, advanced features)
+# Python (validation, thumbnails, AI generation)
 pip install -r requirements.txt
 
 # System dependencies
