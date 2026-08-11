@@ -1,0 +1,8 @@
+# Core dependencies for PPTX skill
+markitdown[pptx]>=0.1.0
+Pillow>=10.0.0
+defusedxml>=0.7.0
+lxml>=4.9.0
+
+# Optional: for advanced features
+colorsys  # stdlib, no install needed

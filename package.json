@@ -1,0 +1,43 @@
+{
+  "name": "pptx-advanced-skill",
+  "version": "2.0.0",
+  "description": "Advanced PowerPoint presentation skill with intelligent layout engine, theme management, and safe chart configuration",
+  "main": "examples/demo_presentation.js",
+  "scripts": {
+    "demo": "node examples/demo_presentation.js",
+    "validate": "python scripts/office/validate.py",
+    "thumbnail": "python scripts/thumbnail.py",
+    "extract": "python scripts/advanced/batch_processor.py extract",
+    "info": "python scripts/advanced/batch_processor.py info",
+    "clean": "python scripts/clean.py",
+    "test:theme": "python scripts/advanced/theme_engine.py",
+    "test:layout": "python scripts/advanced/layout_engine.py",
+    "test:chart": "python scripts/advanced/chart_builder.py",
+    "test:animation": "python scripts/advanced/animation_helper.py",
+    "test:image": "python scripts/advanced/image_optimizer.py"
+  },
+  "keywords": [
+    "pptx",
+    "powerpoint",
+    "presentation",
+    "slides",
+    "deck",
+    "pptxgenjs",
+    "ai-skill",
+    "automation"
+  ],
+  "author": "consecrating",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  },
+  "optionalDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.0",
+    "sharp": "^0.33.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

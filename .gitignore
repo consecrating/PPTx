@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# Output files
+*.pptx
+!examples/*.pptx
+*.pdf
+*.jpg
+*.png
+slide-*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+lo_socket_shim.*
+unpacked/
